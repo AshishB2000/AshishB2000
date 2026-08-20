@@ -1,9 +1,9 @@
-<svg width="100%" viewBox="0 0 1000 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" viewBox="0 0 1000 320" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0d0e1a"/>
-      <stop offset="55%" stop-color="#151726"/>
-      <stop offset="100%" stop-color="#1a1b2e"/>
+      <stop offset="0%" stop-color="#0a0b14"/>
+      <stop offset="55%" stop-color="#12131f"/>
+      <stop offset="100%" stop-color="#171828"/>
     </linearGradient>
     <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#7aa2f7"/>
@@ -14,57 +14,68 @@
       <animate attributeName="x1" values="-100%;100%" dur="5s" repeatCount="indefinite"/>
       <animate attributeName="x2" values="0%;200%" dur="5s" repeatCount="indefinite"/>
     </linearGradient>
+    <linearGradient id="ribbon1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff9e64"/><stop offset="35%" stop-color="#bb9af7"/>
+      <stop offset="70%" stop-color="#7dcfff"/><stop offset="100%" stop-color="#7aa2f7"/>
+    </linearGradient>
+    <linearGradient id="ribbon2" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7768e"/><stop offset="50%" stop-color="#bb9af7"/><stop offset="100%" stop-color="#7dcfff"/>
+    </linearGradient>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="28"/></filter>
     <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
       <feGaussianBlur stdDeviation="6" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <clipPath id="frame"><rect width="1000" height="320" rx="18"/></clipPath>
   </defs>
 
-  <rect width="1000" height="280" rx="18" fill="url(#bg)"/>
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="320" fill="url(#bg)"/>
 
-  <!-- circuit lines drawing themselves -->
-  <g stroke="#414868" stroke-width="1.5" opacity="0.55">
-    <path d="M40 60 H240 L280 100 H420" stroke-dasharray="440" stroke-dashoffset="440">
-      <animate attributeName="stroke-dashoffset" values="440;0" dur="3s" fill="freeze"/>
-    </path>
-    <path d="M960 220 H760 L720 180 H580" stroke-dasharray="440" stroke-dashoffset="440">
-      <animate attributeName="stroke-dashoffset" values="440;0" dur="3s" begin="0.5s" fill="freeze"/>
-    </path>
-    <path d="M900 50 H820 L790 80" stroke-dasharray="150" stroke-dashoffset="150">
-      <animate attributeName="stroke-dashoffset" values="150;0" dur="2s" begin="1s" fill="freeze"/>
-    </path>
-    <path d="M100 230 H180 L210 200" stroke-dasharray="150" stroke-dashoffset="150">
-      <animate attributeName="stroke-dashoffset" values="150;0" dur="2s" begin="1.2s" fill="freeze"/>
-    </path>
+    <!-- flowing iridescent ribbons -->
+    <g opacity="0.55">
+      <ellipse cx="130" cy="290" rx="340" ry="110" fill="url(#ribbon1)" filter="url(#soft)">
+        <animateTransform attributeName="transform" type="rotate" values="-8 130 290;7 130 290;-8 130 290" dur="14s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="900" cy="40" rx="320" ry="100" fill="url(#ribbon2)" filter="url(#soft)">
+        <animateTransform attributeName="transform" type="rotate" values="6 900 40;-9 900 40;6 900 40" dur="17s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="520" cy="330" rx="260" ry="70" fill="url(#ribbon2)" filter="url(#soft)" opacity="0.6">
+        <animateTransform attributeName="transform" type="translate" values="0 0;40 -18;0 0" dur="12s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+    <!-- darken center so text pops -->
+    <rect width="1000" height="320" fill="#0a0b14" opacity="0.45"/>
+
+    <!-- circuit lines -->
+    <g stroke="#414868" stroke-width="1.5" opacity="0.6">
+      <path d="M40 70 H240 L280 110 H420" stroke-dasharray="440" stroke-dashoffset="440">
+        <animate attributeName="stroke-dashoffset" values="440;0" dur="3s" fill="freeze"/>
+      </path>
+      <path d="M960 250 H760 L720 210 H580" stroke-dasharray="440" stroke-dashoffset="440">
+        <animate attributeName="stroke-dashoffset" values="440;0" dur="3s" begin="0.5s" fill="freeze"/>
+      </path>
+    </g>
+    <g fill="#7aa2f7">
+      <circle cx="420" cy="110" r="4"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.4s" repeatCount="indefinite"/></circle>
+      <circle cx="580" cy="210" r="4"><animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- particles -->
+    <g fill="#7dcfff">
+      <circle cx="120" cy="280" r="2.5"><animate attributeName="cy" values="300;20" dur="9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="9s" repeatCount="indefinite"/></circle>
+      <circle cx="330" cy="290" r="2"><animate attributeName="cy" values="310;10" dur="12s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="12s" begin="2s" repeatCount="indefinite"/></circle>
+      <circle cx="680" cy="295" r="2.5"><animate attributeName="cy" values="310;15" dur="10s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="10s" begin="1s" repeatCount="indefinite"/></circle>
+      <circle cx="870" cy="285" r="2"><animate attributeName="cy" values="305;25" dur="11s" begin="3.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="11s" begin="3.5s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <text x="500" y="158" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="88" font-weight="800" letter-spacing="4" fill="url(#shine)" filter="url(#glow)">ASHISH B</text>
+    <text x="500" y="212" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="23" font-weight="500" letter-spacing="1" fill="#c0caf5" opacity="0">
+      Building the AI data tools I always wished existed
+      <animate attributeName="opacity" values="0;1" dur="1.5s" begin="0.8s" fill="freeze"/>
+    </text>
+    <rect x="240" y="228" height="3" rx="1.5" width="0" fill="url(#shine)">
+      <animate attributeName="width" values="0;520" dur="1.2s" begin="1.4s" fill="freeze"/>
+    </rect>
   </g>
-  <!-- circuit node dots, pulsing -->
-  <g fill="#7aa2f7">
-    <circle cx="420" cy="100" r="4"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.4s" repeatCount="indefinite"/></circle>
-    <circle cx="580" cy="180" r="4"><animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite"/></circle>
-    <circle cx="790" cy="80" r="3.5"><animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/></circle>
-    <circle cx="210" cy="200" r="3.5"><animate attributeName="opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite"/></circle>
-  </g>
-
-  <!-- floating particles -->
-  <g fill="#7dcfff">
-    <circle cx="120" cy="240" r="2.5" opacity="0.7"><animate attributeName="cy" values="260;20" dur="9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="9s" repeatCount="indefinite"/></circle>
-    <circle cx="300" cy="250" r="2" opacity="0.6"><animate attributeName="cy" values="270;10" dur="12s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="12s" begin="2s" repeatCount="indefinite"/></circle>
-    <circle cx="680" cy="255" r="2.5" opacity="0.7"><animate attributeName="cy" values="270;15" dur="10s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="10s" begin="1s" repeatCount="indefinite"/></circle>
-    <circle cx="860" cy="245" r="2" opacity="0.6"><animate attributeName="cy" values="265;25" dur="11s" begin="3.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="11s" begin="3.5s" repeatCount="indefinite"/></circle>
-    <circle cx="500" cy="260" r="1.8" opacity="0.5"><animate attributeName="cy" values="275;5" dur="14s" begin="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.6;0" dur="14s" begin="5s" repeatCount="indefinite"/></circle>
-  </g>
-
-  <!-- name: shimmering gradient + glow -->
-  <text x="500" y="140" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="84" font-weight="800" letter-spacing="4" fill="url(#shine)" filter="url(#glow)">ASHISH B</text>
-
-  <!-- tagline -->
-  <text x="500" y="190" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="500" letter-spacing="1" fill="#a9b1d6" opacity="0">
-    Building the AI data tools I always wished existed
-    <animate attributeName="opacity" values="0;1" dur="1.5s" begin="0.8s" fill="freeze"/>
-  </text>
-
-  <!-- underline sweeping in -->
-  <rect x="240" y="205" height="3" rx="1.5" width="0" fill="url(#shine)">
-    <animate attributeName="width" values="0;520" dur="1.2s" begin="1.4s" fill="freeze"/>
-  </rect>
 </svg>

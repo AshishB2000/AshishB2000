@@ -14,9 +14,8 @@
   <img src="https://img.shields.io/github/stars/AshishB2000?label=Stars&style=for-the-badge&color=e0af68&labelColor=1a1b27" />
 </p>
 
----
 
-## ⚡ Tech Arsenal
+<img width="100%" src="assets/panel-tech-arsenal.svg" alt="Tech Arsenal" />
 
 <div align="center">
 
@@ -39,9 +38,8 @@
 
 </div>
 
----
 
-## 🚀 Featured Builds
+<img width="100%" src="assets/panel-featured-builds.svg" alt="Featured Builds" />
 
 <div align="center">
 
@@ -58,17 +56,15 @@
 
 </div>
 
----
 
-## 🏆 Trophy Cabinet
+<img width="100%" src="assets/panel-trophy-cabinet.svg" alt="Trophy Cabinet" />
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=AshishB2000&theme=tokyonight&no-frame=true&column=7&margin-w=8" />
 </div>
 
----
 
-## 📊 The Numbers
+<img width="100%" src="assets/panel-the-numbers.svg" alt="The Numbers" />
 
 <div align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=AshishB2000&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
@@ -83,9 +79,8 @@
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=AshishB2000&theme=tokyo-night&hide_border=true&area=true" />
 </div>
 
----
 
-## 👾 Pac-Man vs My Commits
+<img width="100%" src="assets/panel-arcade.svg" alt="The Arcade" />
 
 <div align="center">
   <picture>
@@ -94,9 +89,6 @@
   </picture>
 </div>
 
----
-
-## 🐍 Watch the Snake Eat My Commits
 
 <div align="center">
   <picture>
@@ -105,9 +97,8 @@
   </picture>
 </div>
 
----
 
-## 🤝 Find Me
+<img width="100%" src="assets/panel-find-me.svg" alt="Find Me" />
 
 <div align="center">
   <a href="https://linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
