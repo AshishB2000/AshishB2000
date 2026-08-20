@@ -1,5 +1,5 @@
-<!-- Wave banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:414868,100:7aa2f7&height=200&section=header&text=Ashish%20B&fontSize=70&fontColor=c0caf5&animation=fadeIn&fontAlignY=35&desc=Building%20the%20AI%20data%20tools%20I%20always%20wished%20existed&descSize=18&descAlignY=55" />
+<!-- Animated header -->
+<img width="100%" src="assets/header.svg" alt="Ashish B — Building the AI data tools I always wished existed" />
 
 <!-- Typing header -->
 <p align="center">
