@@ -1,10 +1,10 @@
 <!-- Wave banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:414868,100:7aa2f7&height=200&section=header&text=Ashish%20B&fontSize=70&fontColor=c0caf5&animation=fadeIn&fontAlignY=35&desc=Data%20Engineer%20%E2%80%A2%20Pipeline%20Builder%20%E2%80%A2%20Chart%20Nerd&descSize=18&descAlignY=55" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:414868,100:7aa2f7&height=200&section=header&text=Ashish%20B&fontSize=70&fontColor=c0caf5&animation=fadeIn&fontAlignY=35&desc=Building%20the%20AI%20data%20tools%20I%20always%20wished%20existed&descSize=18&descAlignY=55" />
 
 <!-- Typing header -->
 <p align="center">
   <a href="https://github.com/AshishB2000">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=7AA2F7&center=true&vCenter=true&width=600&lines=Turning+raw+data+into+insights+%F0%9F%93%8A;Airflow+%7C+Spark+%7C+Python+%7C+Azure+%7C+AWS;Building+screenchart+%E2%80%94+AI+charts+from+screenshots;Always+shipping+%F0%9F%9A%80" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=7AA2F7&center=true&vCenter=true&width=600&lines=Building+the+AI+data+tools+I+always+wished+existed;screenchart+%E2%80%94+screenshots+in%2C+charts+out+%F0%9F%93%B8;Open-source+BI+tool+in+progress+%F0%9F%9A%A7;Python+%7C+TypeScript+%7C+Airflow+%7C+Azure" alt="Typing SVG" />
   </a>
 </p>
 
@@ -81,6 +81,17 @@
 
 <div align="center">
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=AshishB2000&theme=tokyo-night&hide_border=true&area=true" />
+</div>
+
+---
+
+## 👾 Pac-Man vs My Commits
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AshishB2000/AshishB2000/output/pacman-contribution-graph-dark.svg" />
+    <img src="https://raw.githubusercontent.com/AshishB2000/AshishB2000/output/pacman-contribution-graph.svg" />
+  </picture>
 </div>
 
 ---
