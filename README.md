@@ -34,9 +34,6 @@
   <img width="95%" src="https://raw.githubusercontent.com/AshishB2000/AshishB2000/output/github-metrics.svg" alt="Metrics" />
 </p>
 
-<p align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=AshishB2000&theme=tokyo-night&hide_border=true&area=true" alt="Activity graph" />
-</p>
 
 <img width="100%" src="assets/panel-find-me.svg" alt="Find Me" />
 
