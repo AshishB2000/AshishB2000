@@ -38,8 +38,29 @@
 <img width="100%" src="assets/panel-find-me.svg" alt="Find Me" />
 
 <div align="center">
-  <a href="https://linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:ashishbeerelli1@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+
+  <br/>
+
+  <a href="https://www.linkedin.com/in/ashish-beerelli/">
+    <img src="https://img.shields.io/badge/LinkedIn-Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1b27" />
+  </a>
+  &nbsp;
+  <a href="mailto:ashishb0014@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Say_hi-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1b27" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/AshishB2000?tab=repositories">
+    <img src="https://img.shields.io/badge/GitHub-Peek_at_the_code-7aa2f7?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b27" />
+  </a>
+
+  <br/><br/>
+
+  <em>📬 Inbox always open — pitch me a data problem, roast my charts, or just say hi.</em>
+
+  <br/><br/>
+
+  <img src="https://img.shields.io/badge/⚡_Fun_fact-My_pipelines_have_better_attendance_than_me-bb9af7?style=flat-square&labelColor=1a1b27" />
+
 </div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,50:414868,100:1a1b27&height=120&section=footer" />
