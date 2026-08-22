@@ -18,7 +18,7 @@
   <text x="246" y="108" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#787c99" letter-spacing="1">REPOS</text></g>
 <g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.3333;1" dur="0.90s" begin="0s" fill="freeze"/>
   <rect x="420" y="50" width="170" height="72" rx="12" fill="#161728" stroke="#24283b"/>
-  <text x="436" y="86" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="url(#shine)">81</text>
+  <text x="436" y="86" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="url(#shine)">82</text>
   <text x="436" y="108" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#787c99" letter-spacing="1">COMMITS · 12MO</text></g>
 <g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.4286;1" dur="1.05s" begin="0s" fill="freeze"/>
   <rect x="40" y="140" width="170" height="72" rx="12" fill="#161728" stroke="#24283b"/>
