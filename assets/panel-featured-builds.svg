@@ -10,12 +10,12 @@
     </linearGradient>
   </defs>
   <rect width="1000" height="80" rx="14" fill="url(#bg)"/>
-  <line x1="40" y1="40" x2="272.0" y2="40" stroke="url(#shine)" stroke-width="2" stroke-dasharray="232.0" stroke-dashoffset="232.0">
-    <animate attributeName="stroke-dashoffset" values="232.0;0" dur="1.5s" fill="freeze"/>
-  </line>
-  <line x1="728.0" y1="40" x2="960" y2="40" stroke="url(#shine)" stroke-width="2" stroke-dasharray="232.0" stroke-dashoffset="232.0">
-    <animate attributeName="stroke-dashoffset" values="232.0;0" dur="1.5s" fill="freeze"/>
-  </line>
+  <rect x="40" y="39" width="0" height="2" rx="1" fill="url(#shine)">
+    <animate attributeName="width" values="0;232.0" dur="1.5s" fill="freeze"/>
+  </rect>
+  <rect x="728.0" y="39" width="0" height="2" rx="1" fill="url(#shine)">
+    <animate attributeName="width" values="0;232.0" dur="1.5s" fill="freeze"/>
+  </rect>
   <circle cx="286.0" cy="40" r="3" fill="#7dcfff"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/></circle>
   <circle cx="714.0" cy="40" r="3" fill="#7dcfff"><animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/></circle>
   <text x="500" y="49" text-anchor="middle" textLength="360" lengthAdjust="spacing" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="8" fill="url(#shine)">FEATURED  BUILDS</text>
