@@ -1,11 +1,11 @@
 <!-- Animated header -->
-<img width="100%" src="assets/header.svg?v=3" alt="Hi, I'm Ashish — Building the AI data tools I always wished existed" />
+<img width="100%" src="assets/header.svg?v=2" alt="Ashish B — Building the AI data tools I always wished existed" />
 
-<!-- Self-typing terminal -->
-<img width="100%" src="assets/terminal.svg" alt="terminal: whoami · ls ~/projects · cat status.txt" />
-
-<!-- Now building (auto-updated every 6h) -->
-<img width="100%" src="https://raw.githubusercontent.com/AshishB2000/AshishB2000/output/now.svg" alt="Now building" />
+<p align="center">
+  <a href="https://github.com/AshishB2000">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=7AA2F7&center=true&vCenter=true&width=800&lines=screenchart+%E2%80%94+screenshots+in%2C+charts+out+%F0%9F%93%B8;Open-source+BI+tool+in+progress+%F0%9F%9A%A7;Building+in+public%2C+breaking+in+private+%F0%9F%94%A7;Pipelines+that+run+while+I+sleep+%F0%9F%98%B4;Turning+caffeine+into+data+tools+%E2%98%95" alt="Typing SVG" />
+  </a>
+</p>
 
 <img width="100%" src="assets/panel-arcade.svg?v=2" alt="The Arcade" />
 
@@ -15,6 +15,8 @@
     <img src="https://raw.githubusercontent.com/AshishB2000/AshishB2000/output/pacman-contribution-graph.svg" alt="Pac-Man" />
   </picture>
 </div>
+
+
 
 <img width="100%" src="assets/panel-featured-builds.svg?v=2" alt="Featured Builds" />
 
@@ -28,8 +30,10 @@
 
 <img width="100%" src="assets/panel-the-numbers.svg?v=2" alt="The Numbers" />
 
-<!-- Stats panel (auto-generated every 6h, Tokyo Night) -->
-<img width="100%" src="https://raw.githubusercontent.com/AshishB2000/AshishB2000/output/stats.svg" alt="Stats" />
+<p align="center">
+  <img width="95%" src="https://raw.githubusercontent.com/AshishB2000/AshishB2000/output/github-metrics.svg" alt="Metrics" />
+</p>
+
 
 <img width="100%" src="assets/panel-find-me.svg?v=2" alt="Find Me" />
 
