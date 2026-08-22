@@ -1,5 +1,5 @@
 <!-- Animated header -->
-<img width="100%" src="assets/header.svg" alt="Ashish B — Building the AI data tools I always wished existed" />
+<img width="100%" src="assets/header.svg?v=2" alt="Ashish B — Building the AI data tools I always wished existed" />
 
 <p align="center">
   <a href="https://github.com/AshishB2000">
@@ -7,7 +7,7 @@
   </a>
 </p>
 
-<img width="100%" src="assets/panel-arcade.svg" alt="The Arcade" />
+<img width="100%" src="assets/panel-arcade.svg?v=2" alt="The Arcade" />
 
 <div align="center">
   <picture>
@@ -18,24 +18,24 @@
 
 
 
-<img width="100%" src="assets/panel-featured-builds.svg" alt="Featured Builds" />
+<img width="100%" src="assets/panel-featured-builds.svg?v=2" alt="Featured Builds" />
 
 <p align="center">
-  <a href="https://github.com/AshishB2000/screenchart"><img width="49%" src="assets/card-screenchart.svg" alt="screenchart" /></a>
-  <a href="https://github.com/AshishB2000/Reddit_Datapipeline"><img width="49%" src="assets/card-Reddit_Datapipeline.svg" alt="Reddit_Datapipeline" /></a>
+  <a href="https://github.com/AshishB2000/screenchart"><img width="49%" src="assets/card-screenchart.svg?v=2" alt="screenchart" /></a>
+  <a href="https://github.com/AshishB2000/Reddit_Datapipeline"><img width="49%" src="assets/card-Reddit_Datapipeline.svg?v=2" alt="Reddit_Datapipeline" /></a>
 </p>
 <p align="center">
-  <a href="https://github.com/AshishB2000/StadiumList-Datapipeline"><img width="49%" src="assets/card-StadiumList-Datapipeline.svg" alt="StadiumList-Datapipeline" /></a>
+  <a href="https://github.com/AshishB2000/StadiumList-Datapipeline"><img width="49%" src="assets/card-StadiumList-Datapipeline.svg?v=2" alt="StadiumList-Datapipeline" /></a>
 </p>
 
-<img width="100%" src="assets/panel-the-numbers.svg" alt="The Numbers" />
+<img width="100%" src="assets/panel-the-numbers.svg?v=2" alt="The Numbers" />
 
 <p align="center">
   <img width="95%" src="https://raw.githubusercontent.com/AshishB2000/AshishB2000/output/github-metrics.svg" alt="Metrics" />
 </p>
 
 
-<img width="100%" src="assets/panel-find-me.svg" alt="Find Me" />
+<img width="100%" src="assets/panel-find-me.svg?v=2" alt="Find Me" />
 
 <div align="center">
 
