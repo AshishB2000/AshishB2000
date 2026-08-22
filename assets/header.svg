@@ -69,7 +69,7 @@
       <circle cx="870" cy="285" r="2"><animate attributeName="cy" values="305;25" dur="11s" begin="3.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="11s" begin="3.5s" repeatCount="indefinite"/></circle>
     </g>
 
-    <text x="500" y="158" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="88" font-weight="800" letter-spacing="4" fill="url(#shine)" filter="url(#glow)">ASHISH B</text>
+    <text x="500" y="158" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="76" font-weight="800" letter-spacing="3" fill="url(#shine)" filter="url(#glow)">HI, I'M ASHISH</text>
     <text x="500" y="212" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="23" font-weight="500" letter-spacing="1" fill="#c0caf5" opacity="0">
       Building the AI data tools I always wished existed
       <animate attributeName="opacity" values="0;1" dur="1.5s" begin="0.8s" fill="freeze"/>
