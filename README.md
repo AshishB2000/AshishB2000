@@ -7,11 +7,6 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=AshishB2000&label=Profile+views&color=7aa2f7&style=for-the-badge" />
-  <img src="https://img.shields.io/github/followers/AshishB2000?label=Followers&style=for-the-badge&color=414868&labelColor=1a1b27" />
-  <img src="https://img.shields.io/github/stars/AshishB2000?label=Stars&style=for-the-badge&color=e0af68&labelColor=1a1b27" />
-</p>
 
 <img width="100%" src="assets/panel-tech-arsenal.svg" alt="Tech Arsenal" />
 
