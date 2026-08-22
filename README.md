@@ -8,25 +8,6 @@
 </p>
 
 
-<img width="100%" src="assets/panel-tech-arsenal.svg" alt="Tech Arsenal" />
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,typescript,react,nodejs,mysql,postgres&theme=dark" />
-
-<img src="https://skillicons.dev/icons?i=azure,aws,gcp,docker,kubernetes,linux,git,github&theme=dark" />
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" />
-<img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" />
-<img src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" />
-<img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white" />
-<img src="https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white" />
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-
-</div>
-
 <img width="100%" src="assets/panel-featured-builds.svg" alt="Featured Builds" />
 
 <p align="center">
