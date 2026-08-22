@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://github.com/AshishB2000">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=7AA2F7&center=true&vCenter=true&width=600&lines=Building+the+AI+data+tools+I+always+wished+existed;screenchart+%E2%80%94+screenshots+in%2C+charts+out+%F0%9F%93%B8;Open-source+BI+tool+in+progress+%F0%9F%9A%A7;Python+%7C+TypeScript+%7C+Airflow+%7C+Azure" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=7AA2F7&center=true&vCenter=true&width=800&lines=screenchart+%E2%80%94+screenshots+in%2C+charts+out+%F0%9F%93%B8;Open-source+BI+tool+in+progress+%F0%9F%9A%A7;Python+%7C+TypeScript+%7C+Airflow+%7C+Azure" alt="Typing SVG" />
   </a>
 </p>
 
