@@ -10,13 +10,13 @@
     </linearGradient>
   </defs>
   <rect width="1000" height="80" rx="14" fill="url(#bg)"/>
-  <line x1="40" y1="40" x2="360" y2="40" stroke="url(#shine)" stroke-width="2" stroke-dasharray="320" stroke-dashoffset="320">
-    <animate attributeName="stroke-dashoffset" values="320;0" dur="1.5s" fill="freeze"/>
+  <line x1="40" y1="40" x2="368.0" y2="40" stroke="url(#shine)" stroke-width="2" stroke-dasharray="328.0" stroke-dashoffset="328.0">
+    <animate attributeName="stroke-dashoffset" values="328.0;0" dur="1.5s" fill="freeze"/>
   </line>
-  <line x1="640" y1="40" x2="960" y2="40" stroke="url(#shine)" stroke-width="2" stroke-dasharray="320" stroke-dashoffset="320">
-    <animate attributeName="stroke-dashoffset" values="320;0" dur="1.5s" fill="freeze"/>
+  <line x1="632.0" y1="40" x2="960" y2="40" stroke="url(#shine)" stroke-width="2" stroke-dasharray="328.0" stroke-dashoffset="328.0">
+    <animate attributeName="stroke-dashoffset" values="328.0;0" dur="1.5s" fill="freeze"/>
   </line>
-  <circle cx="375" cy="40" r="3" fill="#7dcfff"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/></circle>
-  <circle cx="625" cy="40" r="3" fill="#7dcfff"><animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/></circle>
-  <text x="500" y="49" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="8" fill="url(#shine)">FIND  ME</text>
+  <circle cx="382.0" cy="40" r="3" fill="#7dcfff"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/></circle>
+  <circle cx="618.0" cy="40" r="3" fill="#7dcfff"><animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/></circle>
+  <text x="500" y="49" text-anchor="middle" textLength="168" lengthAdjust="spacing" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="8" fill="url(#shine)">FIND  ME</text>
 </svg>
