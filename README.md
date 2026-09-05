@@ -26,6 +26,7 @@
 </p>
 <p align="center">
   <a href="https://github.com/AshishB2000/StadiumList-Datapipeline"><img width="49%" src="assets/card-StadiumList-Datapipeline.svg?v=2" alt="StadiumList-Datapipeline" /></a>
+  <a href="https://github.com/AshishB2000/bmw-m4-csl-configurator"><img width="49%" src="assets/card-bmw-m4-csl-configurator.svg?v=1" alt="bmw-m4-csl-configurator" /></a>
 </p>
 
 <img width="100%" src="assets/panel-the-numbers.svg?v=2" alt="The Numbers" />

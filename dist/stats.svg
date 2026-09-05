@@ -1,0 +1,56 @@
+<svg width="100%" viewBox="0 0 1000 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7aa2f7"/><stop offset="50%" stop-color="#bb9af7"/><stop offset="100%" stop-color="#7dcfff"/>
+      <animate attributeName="x1" values="-100%;100%" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0%;200%" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect x="1.5" y="1.5" width="997" height="237" rx="16" fill="#0f1019" stroke="url(#shine)" stroke-width="2"/>
+  <path d="M610 30 V210" stroke="#24283b"/>
+  <g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.0000;1" dur="0.60s" begin="0s" fill="freeze"/>
+  <rect x="40" y="50" width="170" height="72" rx="12" fill="#161728" stroke="#24283b"/>
+  <text x="56" y="86" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="url(#shine)">8</text>
+  <text x="56" y="108" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#787c99" letter-spacing="1">STARS</text></g>
+<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.2000;1" dur="0.75s" begin="0s" fill="freeze"/>
+  <rect x="230" y="50" width="170" height="72" rx="12" fill="#161728" stroke="#24283b"/>
+  <text x="246" y="86" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="url(#shine)">16</text>
+  <text x="246" y="108" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#787c99" letter-spacing="1">REPOS</text></g>
+<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.3333;1" dur="0.90s" begin="0s" fill="freeze"/>
+  <rect x="420" y="50" width="170" height="72" rx="12" fill="#161728" stroke="#24283b"/>
+  <text x="436" y="86" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="url(#shine)">81</text>
+  <text x="436" y="108" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#787c99" letter-spacing="1">COMMITS · 12MO</text></g>
+<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.4286;1" dur="1.05s" begin="0s" fill="freeze"/>
+  <rect x="40" y="140" width="170" height="72" rx="12" fill="#161728" stroke="#24283b"/>
+  <text x="56" y="176" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="url(#shine)">24</text>
+  <text x="56" y="198" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#787c99" letter-spacing="1">PULL REQUESTS</text></g>
+<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5000;1" dur="1.20s" begin="0s" fill="freeze"/>
+  <rect x="230" y="140" width="170" height="72" rx="12" fill="#161728" stroke="#24283b"/>
+  <text x="246" y="176" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="url(#shine)">0</text>
+  <text x="246" y="198" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#787c99" letter-spacing="1">ISSUES</text></g>
+<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5556;1" dur="1.35s" begin="0s" fill="freeze"/>
+  <rect x="420" y="140" width="170" height="72" rx="12" fill="#161728" stroke="#24283b"/>
+  <text x="436" y="176" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="url(#shine)">0</text>
+  <text x="436" y="198" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#787c99" letter-spacing="1">FOLLOWERS</text></g>
+  <text x="640" y="58" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#787c99" letter-spacing="2">TOP LANGUAGES</text>
+<text x="640" y="92" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c0caf5">Jupyter Notebook</text>
+  <text x="960" y="92" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#787c99">97%</text>
+  <rect x="730" y="83" width="180" height="8" rx="4" fill="#1f2235"/>
+  <rect x="730" y="83" width="174.9" height="8" rx="4" fill="#DA5B0B"><animate attributeName="width" values="0;0;174.9" keyTimes="0;0.2000;1" dur="1.50s" begin="0s" fill="freeze"/></rect>
+<text x="640" y="124" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c0caf5">TypeScript</text>
+  <text x="960" y="124" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#787c99">2%</text>
+  <rect x="730" y="115" width="180" height="8" rx="4" fill="#1f2235"/>
+  <rect x="730" y="115" width="3.6" height="8" rx="4" fill="#3178c6"><animate attributeName="width" values="0;0;3.6" keyTimes="0;0.2727;1" dur="1.65s" begin="0s" fill="freeze"/></rect>
+<text x="640" y="156" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c0caf5">CSS</text>
+  <text x="960" y="156" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#787c99">0%</text>
+  <rect x="730" y="147" width="180" height="8" rx="4" fill="#1f2235"/>
+  <rect x="730" y="147" width="0.8" height="8" rx="4" fill="#663399"><animate attributeName="width" values="0;0;0.8" keyTimes="0;0.3333;1" dur="1.80s" begin="0s" fill="freeze"/></rect>
+<text x="640" y="188" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c0caf5">HTML</text>
+  <text x="960" y="188" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#787c99">0%</text>
+  <rect x="730" y="179" width="180" height="8" rx="4" fill="#1f2235"/>
+  <rect x="730" y="179" width="0.5" height="8" rx="4" fill="#e34c26"><animate attributeName="width" values="0;0;0.5" keyTimes="0;0.3846;1" dur="1.95s" begin="0s" fill="freeze"/></rect>
+<text x="640" y="220" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#c0caf5">JavaScript</text>
+  <text x="960" y="220" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#787c99">0%</text>
+  <rect x="730" y="211" width="180" height="8" rx="4" fill="#1f2235"/>
+  <rect x="730" y="211" width="0.3" height="8" rx="4" fill="#f1e05a"><animate attributeName="width" values="0;0;0.3" keyTimes="0;0.4286;1" dur="2.10s" begin="0s" fill="freeze"/></rect>
+</svg>
