@@ -1,5 +1,5 @@
 <!-- Animated header -->
-<img width="100%" src="assets/header.svg?v=2" alt="Ashish B — Building the AI data tools I always wished existed" />
+<img width="100%" src="assets/header.svg?v=2" alt="Ashish Beerelli — Building the AI data tools I always wished existed" />
 
 <p align="center">
   <a href="https://github.com/AshishB2000">
@@ -42,6 +42,10 @@
 
   <br/>
 
+  <a href="https://ashishbeerelli.com">
+    <img src="https://img.shields.io/badge/Website-ashishbeerelli.com-9ece6a?style=for-the-badge&labelColor=1a1b27" />
+  </a>
+  &nbsp;
   <a href="https://www.linkedin.com/in/ashish-beerelli/">
     <img src="https://img.shields.io/badge/LinkedIn-Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1b27" />
   </a>
