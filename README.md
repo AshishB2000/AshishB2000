@@ -50,10 +50,6 @@
     <img src="https://img.shields.io/badge/LinkedIn-Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1b27" />
   </a>
   &nbsp;
-  <a href="mailto:ashishb0014@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Say_hi-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1b27" />
-  </a>
-  &nbsp;
   <a href="https://github.com/AshishB2000?tab=repositories">
     <img src="https://img.shields.io/badge/GitHub-Peek_at_the_code-7aa2f7?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b27" />
   </a>
